@@ -1,0 +1,12 @@
+package in.vikram.pattern.solution;
+
+public class PrintingNumber {
+public static void PrintNum() {
+	
+}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

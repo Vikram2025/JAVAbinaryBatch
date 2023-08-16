@@ -1,0 +1,14 @@
+package in.vikram.pattern.solution;
+
+public class PrintingNumber {
+public static void printNum() {
+	for(int i=0;i<11;i++) {
+		System.out.println("Number + i ");
+	}
+}
+	public static void main(String[] args) {
+		printNum();
+
+	}
+
+}

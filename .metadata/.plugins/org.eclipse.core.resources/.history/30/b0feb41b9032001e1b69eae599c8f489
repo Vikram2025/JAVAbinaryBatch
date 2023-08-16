@@ -1,0 +1,16 @@
+package AssignmentsSolutionCode;
+
+public class ArrayPrintingExample {
+public static void arrayPrint(int [] numbers) {
+	System.out.println("The elemets present in Array are");
+	for(int num : numbers) {
+		System.out.println(num);
+	}
+
+}
+	public static void main(String[] args) {
+		int []numbers= {1,2,3,4,56,77,99};
+		arrayPrint(numbers);
+	}
+
+}

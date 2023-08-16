@@ -1,0 +1,14 @@
+package StringSolutions;
+
+public class PrintDuplictaeChar {
+
+	public static void main(String[] args) {
+		String str= "Hello World";
+
+	}
+	public static void printDuplicate(String str) {
+		int [] count=new int [256];
+		
+	}
+
+}

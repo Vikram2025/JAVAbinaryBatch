@@ -1,0 +1,26 @@
+package StringSolutions;
+
+public class RemoveDuplicateString {
+
+	public static void main(String[] args) {
+		String str = "Hello World";
+		String Result = removeDuplicate(str);
+		System.out.println(Result);
+	}
+
+	public static String removeDuplicate(String str) {
+		StringBuffer SB = new StringBuffer();
+		boolean[] charSet = new boolean[256];
+
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			if (!charSet[c]) { // if(charSet[c]==false);
+				SB.append(c); // SB.append(c) SB=H=false e=false l=false 
+				charSet[c] = true;//SB=H=true e=true l=true l=true
+			}
+		}
+
+		return SB.toString();
+	}
+
+}

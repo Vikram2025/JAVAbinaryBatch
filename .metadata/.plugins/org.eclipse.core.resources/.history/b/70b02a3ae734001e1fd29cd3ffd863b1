@@ -1,0 +1,39 @@
+package in.vikram.pattern.solution;
+
+import java.util.Scanner;
+
+public class SwitchCaseExample {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Eneter the dayNumber to get the Day name");
+		int DayNumber= scan.nextInt();
+		switch(DayNumber){
+			case 1:
+				System.out.println("Mon..");
+			break;
+			case 2:
+				System.out.println("Tue...");
+			break;
+			case 3:
+				System.out.println("Wen...");
+			break;
+			case 4:
+				System.out.println("Thus....");
+			break;
+			case 5:
+				System.out.println("Frid...");
+			break;
+			case 6:
+				System.out.println("Satu...");
+			break;
+			case 7:
+				System.out.println("Sund...");
+			break;
+			default:
+				System.out.println("Kindly Enter the right number for day");
+		}
+
+	}
+
+}

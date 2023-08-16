@@ -1,0 +1,19 @@
+package AssignmentsSolutionCode;
+class Car{
+	public  void Sound() {
+		System.out.println("the sound of a car ");
+	}
+	public void Speed() {
+		System.out.println("The Speed of a Car");
+	}
+}
+public class ObjectCreationExample {
+
+	public static void main(String[] args) {
+		Car C = new Car();
+		
+		C.Sound();
+		C.Speed();
+	}
+
+}

@@ -1,0 +1,16 @@
+package AssignmentsSolutionCode;
+
+public class SumOfArrayExample {
+public static int ArraySum(int[] numbers) {
+	int sum;
+	for(int arr:numbers) {
+		sum+=sum
+	}
+}
+	public static void main(String[] args) {
+		int[] numbers= {10,22,12,34,19};
+	int Sum=ArraySum(numbers);
+
+	}
+
+}
